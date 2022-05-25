@@ -23,6 +23,17 @@ class NinjaCard extends StatelessWidget {
         padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
         child: Column(
           children: <Widget> [
+            Center(
+              child: CircleAvatar(
+                backgroundImage: AssetImage('assets/hair.png'),
+                radius: 40,
+              ),
+            ),
+
+            Divider(
+              height: 60,
+              color: Colors.grey[800],
+            ),
             Text(
               "NAME",
               style: TextStyle(
